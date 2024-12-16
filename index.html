@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Chat-Real time chat application</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <div class="navbar">
+       <img class="logo" src="logo.png" alt="">
+       <h1>Welcome to the Group Chat</h1>
+     </div>
+     <div class="container">    
+        <!-- <div class="msg left">Likhith:hey how are you ?</div>
+        <div class="msg right">Nimmi:Good</div> -->
+     </div> 
+     <div class="send">
+        <form action="#" id="sendcontainer">
+            <input type="text" name="msginput" id="msginput" placeholder="Enter a message">
+            <button class="btn" type="submit">Send</button>
+        </form> 
+     </div>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+</body> 
+</html>
